@@ -7,4 +7,5 @@ RUN curl -sL -o /usr/bin/kubectl https://storage.googleapis.com/kubernetes-relea
     chmod +x /usr/bin/kubectl
 
 COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
