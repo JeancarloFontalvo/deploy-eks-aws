@@ -1,4 +1,4 @@
-name: kubectl-aws-eks
+name: pirani-kubectl-aws-eks
 description: "This action provides kubectl for Github Actions."
 author: 'Maksim Karpychev'
 runs:
