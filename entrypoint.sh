@@ -21,7 +21,7 @@ if [ -z ${IAM_VERSION+x} ] ; then
 else
     echo "Pulling aws-iam-authenticator for version $IAM_VERSION"
     rm /usr/bin/aws-iam-authenticator
-    curl -sL -o /usr/bin/aws-iam-authenticator https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v"$IAM_VERSION"/aws-iam-authenticator_"$IAM_VERSION"_linux_amd64 && \
+    curl -sL -o /usr/bin/aws-iam-authenticator https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v0.5.3/aws-iam-authenticator_0.5.3_linux_amd64 && \
     chmod +x /usr/bin/aws-iam-authenticator
     echo "Using aws-iam-authenticator version: $(aws-iam-authenticator version)"
 fi
