@@ -2,7 +2,7 @@
 
 This action provides `kubectl` for Github Actions.
 
-## Usagee
+## Usage
 
 `.github/workflows/push.yml`
 
