@@ -1,4 +1,7 @@
-on: push
+on: 
+ push:
+  tags:
+    - '1.0.5'
 name: deploy
 jobs:
   deploy:
