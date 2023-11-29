@@ -6,5 +6,6 @@ RUN curl -sL -o /usr/bin/kubectl https://storage.googleapis.com/kubernetes-relea
     chmod +x /usr/bin/aws-iam-authenticator && \
     chmod +x /usr/bin/kubectl
 
+
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
